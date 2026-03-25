@@ -34,7 +34,8 @@ mlo_data %>%
   geom_line() +
   labs(title = "CO2 concentration at MLO over time",
        x = "Year",
-       y = "Carbon Dioxide Concentration")
+       y = "Carbon Dioxide Concentration") + 
+theme_classic()
 ```
 The figure shows an increasing Carbon Dioxide over time
 
